@@ -1,0 +1,158 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+ 
+    height: 100vh;
+    width: 2000px;
+    margin: 0 auto;
+}
+.containner{
+ 
+    height: 1000px;
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+   
+    height: auto;
+    width:  1000px;
+    margin:  auto;
+
+}
+.pic img{
+    margin: 50px auto;
+    height: 900px;
+    width: 1000px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.form-container{
+ 
+    height: 1000px;
+    width: 750px;
+    margin: 100px auto;
+}
+form{
+    margin: 50px auto;
+    height: 900px;
+    width: 600px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+     height: 100px;
+    width: 400px;
+    margin: 50px auto;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 500;
+    
+}
+.email{ 
+    position: relative;
+    margin: 10px;
+ 
+  
+}
+input{ 
+    outline: none;
+    font-family: monospace;
+    padding: 10px;
+    display: block;
+    height: 90px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+   cursor: pointer;
+}
+
+label{
+   display: none;
+   position: absolute;
+   top: 10px;
+   left: 70px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 20px;
+    line-height: 45px;
+
+}
+
+.rem{
+    height: auto;
+    width: auto; 
+    margin-right: 165px;
+}
+.forget{
+    color: green;
+    cursor: pointer;
+}
+.forget:hover{
+    color: red;
+}
+
+input[type='checkbox']{
+    display: inline;
+    height: 30px;
+    width: 20px; 
+    margin:10px;
+    margin-right:5px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 4px;
+    background-color:green;
+    cursor: pointer;
+    position: relative;
+    border:  2px solid green;
+
+}
+input[type='checkbox']:checked{
+    background-color: green;
+    color: green;
+    border:  2px solid green;
+}
+
+
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type='checkbox']:focus{
+    border-radius: 20px;
+    padding: 10px;
+    border:  2px solid green;
+   
+}
+input[type="password"]:active,
+input[type="text"]:active,
+input[type='checkbox']:active{
+    padding: 10px;
+    border:  2px solid green;
+   
+}
+button
+{   color: whitesmoke;
+    height: 70px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: monospace;
+    background-color: green;
+    border: 0;
+}
